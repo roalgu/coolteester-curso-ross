@@ -9,57 +9,59 @@ public class Ejercicio3DeterminarVariable {
 		//El nombre de cada una indica el tipo de dato que contendrá y servirá para 
 		//determinar el tipo de dato más adecuado en la declaración de la variable. 
 		
-		byte var1 = 1; // Numerico entero
-		short var2 = 1; // Numerico entero
-		int var3 = 1; // Numerico entero (Entero) - Automation
-		long var4 = 1L; // Numerico entero - Automation
-		float var5 = 1.2f; // Numerico real
-		double var6 = 2.223; // Numerico real (decimales) - Automation
-		char var7 = 'a'; // Caracter - Automation
-		boolean var8 = true; // Boleano - Automation - tiene dos valores TRUE / FALSE
-		
+		//a)edad
 		byte edad = 18;
+		System.out.println(edad);
+		//b)Código Postal
 		long codigo_postal = 55720;
+		System.out.println(codigo_postal);
+		//c)altura
 		double estatura = 1.50;
+		System.out.println(estatura);
+		//d)genero (Valores: H: hombre, M:mujer)
 		char genero = 'H';
+		System.out.println(genero);
+		//e)nombre
 		String nombre = "Alberto";
+		System.out.println(nombre);
+		//f)númeroDeHijos
 		int numhijos = 2;
+		System.out.println(numhijos);
+		//g) iva (valores: % a aplicar) 
 		double iva = 1.5;
+		System.out.println(iva);
+		// h) tallaCamisa (valores numéricos) 
 		long tallacamisa = 27;
+		System.out.println(tallacamisa);
+		//i) peso
 		double peso = 39.5;
+		System.out.println(peso);
+		//j) precio  
 		double precio = 500.00;
+		System.out.println(precio);
+		//k) alumnoRepetidor  (valores: SI/NO)
 		String alumno_repe = "Si";
+		System.out.println(alumno_repe);
+		// l) mensaje
 		String mensaje ="Esto es una tarea";
+		System.out.println(mensaje);
+		//m) letra
 		String letra = "RyA";
+		System.out.println(letra);
+		// n) mayorEdad                                              
 		String may_edad = "18";
-		int hora, minutos, segundos;
-		int calendario = Calendar.DAY_OF_MONTH;
-		String matricula_Coche= "MXN1234";
-		int[] lista = new int [10]; //Lista de numeros enteros que supondremos llenara
-		int contador = 0; //Se declara e inicializa un contador
-		for (int i = 0 ; i<100; i++)
-			if (lista [i] > 17)
-				contador++; //Incrementamos si corresponde
-		//Al finalizar el programa , el contador nos indica cuantas veces a corrido
-		System.out.println ("Hay" +contador +"numeros mayores que 17.");
-		String mayor_edad = "Verdadero";
-				If (may_edad < 18 ){
-			System.out.println("Es mayor de edad + mayor_edad");
-		}
-				
-		
-		
+		System.out.println(may_edad);
+		//o)minutos
+		//p)dias
+		//q) matriculaCoche  
+		String matricula_Coche = "MXN2014";
+		System.out.println(matricula_Coche);
+		//r)contador
+		//s)mayor edad (Valores; verdadero/falso)
+		//t)tallaCamiseta (valores: S, L, XL...) 
+		 
 			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		
 
