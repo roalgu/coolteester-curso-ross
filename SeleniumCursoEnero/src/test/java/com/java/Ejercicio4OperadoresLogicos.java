@@ -7,17 +7,20 @@ public class Ejercicio4OperadoresLogicos {
 //		he indica cual es mayor de los dos. Si son iguales indicarlo también.
 //		Ves cambiando los valores para comprobar que funciona. 
 		
-		int or = 10;
-		int or2 = 8;
+		int or = 20;
+		int or2 = 20;
 		
 		if(or > or2) {
-			System.out.println("ES MAYOR");
+			String valor = "es mayor a ";
+			System.out.println(or+" " +valor+" "+or2);
 		}
 		else if (or < or2){
-			System.out.println("ES MENOR");
+			String valor = "es menor a ";
+			System.out.println(or+" " +valor+" "+or2);
 		}
 		else if (or == or2){
-			System.out.println("ES IGUAL");
+			String valor = "es igual a ";
+			System.out.println(or+" " +valor+" "+or2);
 		}
 		}
 		
