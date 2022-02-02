@@ -1,5 +1,7 @@
 package com.java;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Calendar;
 
 public class Ejercicio3DeterminarVariable {
@@ -49,15 +51,22 @@ public class Ejercicio3DeterminarVariable {
 		String letra = "RyA";
 		System.out.println(letra);
 		// n) mayorEdad                                              
-		String may_edad = "18";
-		System.out.println(may_edad);
+		int mayedad = 4;
+		System.out.println(mayedad);
 		//o)minutos
+		
 		//p)dias
+		LocalDate.now();
 		//q) matriculaCoche  
 		String matricula_Coche = "MXN2014";
 		System.out.println(matricula_Coche);
 		//r)contador
 		//s)mayor edad (Valores; verdadero/falso)
+		if (mayedad  >= 18) {
+			System.out.println("Es mayor de edad");
+		} else if (mayedad <18 ) {
+			System.out.println("Es menor de edad");
+		}
 		//t)tallaCamiseta (valores: S, L, XL...) 
 		 
 			
