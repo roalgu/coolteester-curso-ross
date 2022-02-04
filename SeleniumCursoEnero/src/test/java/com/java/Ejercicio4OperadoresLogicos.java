@@ -7,7 +7,7 @@ public class Ejercicio4OperadoresLogicos {
 //		he indica cual es mayor de los dos. Si son iguales indicarlo también.
 //		Ves cambiando los valores para comprobar que funciona. 
 		
-		int or = 20;
+		int or = 5;
 		int or2 = 20;
 		
 		if(or > or2) {

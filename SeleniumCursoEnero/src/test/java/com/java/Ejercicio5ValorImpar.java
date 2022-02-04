@@ -13,10 +13,16 @@ public class Ejercicio5ValorImpar {
 			double numero = escaner.nextDouble();
 			if (numero ==0) {
 					System.out.println("El número es neutro");
-			} else if (numero < 0) {
+						} else if (numero < 0) {
 					System.out.println("El número es negativo");
 			} else {
 					System.out.println("El número es positivo");
 			}
+			if (numero%2==0) {
+					System.out.println("El número "+numero+" es par");
+			} else {
+				System.out.println("El número "+numero+" es impar");
+			}
+			}
+				
 	}
-}
