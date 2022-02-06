@@ -1,6 +1,6 @@
 package com.java;
 
-public class Loops {
+public class ClaseLoops {
 
 	public static void main(String[] args) {
 		// WHILE

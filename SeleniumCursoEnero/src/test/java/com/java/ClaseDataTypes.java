@@ -1,6 +1,6 @@
 package com.java;
 
-public class DataTypes {
+public class ClaseDataTypes {
 
 	public static void main(String[] args) {
 		// Datos primitivos

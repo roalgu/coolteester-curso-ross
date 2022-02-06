@@ -1,6 +1,6 @@
 package com.java;
 
-public class Condicionales {
+public class ClaseCondicionales {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package com.java;
 
-public class Metodos {
+public class ClaseMetodos {
 
 	public static void main(String[] args) {
 		//Caracteristicas de un metodo
