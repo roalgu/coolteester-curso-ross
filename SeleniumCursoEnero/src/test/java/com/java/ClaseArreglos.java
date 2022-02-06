@@ -1,6 +1,6 @@
 package com.java;
 
-public class Arreglos {
+public class ClaseArreglos {
 
 	public static void main(String[] args) {
 		// El public, es para que corra mi codigo
