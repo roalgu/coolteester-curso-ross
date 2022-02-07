@@ -11,8 +11,7 @@ public class Ejercicio2String {
 		String var4 = "Testers ";
 		
 		System.out.println(var3 + var2 + var1 +  var4);
-		
-		
+			
 	
 	}
 

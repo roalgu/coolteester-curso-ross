@@ -1,6 +1,6 @@
 package com.java;
 
-public class Operadores {
+public class ClaseOperadores {
 
 	public static void main(String[] args) {
 		// OPERATORS
