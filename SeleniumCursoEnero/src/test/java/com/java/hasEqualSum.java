@@ -6,7 +6,7 @@ public class hasEqualSum {
 		boolean val = true;
 		int val1 = 4;
 		int val2 = 4;
-		int val3 = 9;
+		int val3 = 8;
 		
 		double sum = val1+ val2;
 		System.out.println("La suma es de:"+""+sum);

@@ -3,6 +3,7 @@ package com.java;
 public class ShouldWakeUp {
 
 	public static void main(String[] args) {
+			
 		boolean barking = true;
 		int hourOfDay = 8;
 		
