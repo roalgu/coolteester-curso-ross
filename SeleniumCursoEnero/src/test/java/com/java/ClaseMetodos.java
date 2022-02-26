@@ -30,6 +30,6 @@ public class ClaseMetodos {
 	
 	public static void algo () {
 		printHello();
-		System.out
+
 	}
 }
