@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opensource.qa.DeleteUser">
+      <class name="com.opensource.qa.ValidateInvalidPassword">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="tc004Admin_DeleteUser"/>
+          <include name="tc006ValidateInvalidPassword"/>
         </methods>
-      </class> <!-- com.opensource.qa.DeleteUser -->
+      </class> <!-- com.opensource.qa.ValidateInvalidPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

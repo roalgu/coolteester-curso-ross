@@ -23,7 +23,7 @@ public class DeleteUser {
 		// Test Data
 		username = "Admin";
 		password = "admin123";
-		searchuser = "Septiembre";
+		searchuser = "adash";
 
 	}
 
@@ -72,7 +72,8 @@ public class DeleteUser {
 		
 		//Step 14
 		Reporter.log("Select User");
-		driver.findElement(By.xpath("//*[@id=\"ohrmList_chkSelectRecord_81\"]")).click();
+		//driver.findElement(By.xpath("//*[@id=\"ohrmList_chkSelectRecord_81\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"ohrmList_chkSelectAll\"]")).click();
 		
 		//Step 15
 		Reporter.log("Delete  User");
